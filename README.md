@@ -1,4 +1,4 @@
-# FinancialTracker
+# Financial Tracker
 
-Under construction.
-Simple budget app.
+Simple budgetting application.
+Users can add/subtract funds and track their net worth over time.
