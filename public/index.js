@@ -1,5 +1,5 @@
-let transactions = [];
-let myChart;
+let transactions = [],
+ myChart;
 
 fetch("/api/transaction")
   .then(response => {
