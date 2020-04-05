@@ -1,8 +1,7 @@
 const express = require("express"),
  logger = require("morgan"),
  mongoose = require("mongoose"),
- compression = require("compression"),
- password = require ("./password");
+ compression = require("compression");
 
 const PORT = 3000;
 
