@@ -3,7 +3,7 @@ const express = require("express"),
  mongoose = require("mongoose"),
  compression = require("compression");
 
-const PORT = 3000;
+const PORT = process.env.PORT || 8080;
 
 const app = express();
 
@@ -20,9 +20,7 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/budget", {
   useFindAndModify: false
 });
 
-// routes
 app.use(require("./routes/api.js"));
-
 app.listen(PORT, () => {
-  console.log(`App running on port ${PORT}!`);
+  console.log(`App running on http://localhost:${PORT}`);
 });
