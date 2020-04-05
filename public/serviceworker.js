@@ -4,7 +4,7 @@ const FILE_CACHE = "static-cache-v1",
 const FILES_TO_CACHE = [
     '/',
     '/index.js',
-    '/styles.css',
+    '/style.css',
     '/icons/icon-192x192.png',
     '/icons/icon-512x512.png'
 ];
